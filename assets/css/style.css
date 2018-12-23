@@ -1,0 +1,51 @@
+body{
+    background: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+header{
+    font-size: 100px;
+    font-style: bold;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+
+}
+.game{
+    border: dotted;
+    border-color: black;
+    margin:  10px 150px;
+    padding: 10px;
+    width: 75%;
+    height: 1000px;
+    position: relative;
+}
+.instructions{
+    position: absolute;
+    left: 300px;
+    text-align: center;
+    width: 350px;
+    height: 30px;
+    font-size: 25px;
+    border-color: black;
+    border: solid;
+    margin: 5px;
+    padding: 5px;
+}
+.tracking{
+    position: absolute;
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+img{
+    position: absolute;
+    left: 375px;
+    border-radius: 125px;
+
+}
